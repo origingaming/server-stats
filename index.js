@@ -1,12 +1,12 @@
 const util = require('minecraft-server-util');
 const Discord = require('discord.js');
 const client = new Discord.Client();
-client.login('ODgwNzA2NTcyMTkwMzYzNjU4.YSiL6Q.6cDFhNkYksgVPp7bQpsCuQRu_U0');
+client.login('YOUR_TOKEN_HERE');
 
 // IMPORTANT: You need to run "npm i minecraft-server-util@^3.4.2 discord.js@^12.5.1" (without quotes) in your terminal before executing this script
 
 const SERVER_ADDRESS = '0.0.0.0'; // Put your minecraft server IP or hostname here (e.g. '192.168.0.1')
-const SERVER_PORT = 20006; // Put your minecraft server port here (25565 is the default)
+const SERVER_PORT = 25565; // Put your minecraft server port here (25565 is the default)
 
 const STATUS_COMMAND = '.status'; // Command to trigger server status message
 const STATUS_ERROR = 'Error getting Minecraft server status...'; // Check your terminal when you see this
